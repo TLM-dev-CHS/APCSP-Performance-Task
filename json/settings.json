@@ -1,0 +1,47 @@
+{
+    "General": {
+        "Launcher": {
+            "First Launch": {
+                "value": "False",
+                "information": "Indicates whether the app has been launched for the first time.",
+                "options": "bool"
+            },
+            "Auto-Update": {
+                "value": "False",
+                "information": "Toggles automatic updates on or off.",
+                "options": "bool"
+            }
+        }
+    },
+    "Appearance": {
+        "Theme": {
+            "Color": {
+                "value": "dark-blue",
+                "information": "Sets the color scheme of this app.",
+                "options": [
+                    "blue",
+                    "dark-blue",
+                    "green"
+                ]
+            },
+            "Font": {
+                "value": "Segoe UI",
+                "information": "Sets the font of this app.",
+                "options": [
+                    "Arial",
+                    "Segoe UI",
+                    "Times New Roman"
+                ]
+            },
+            "Font Alignment": {
+                "value": "left",
+                "information": "Sets the font alignment of this app.",
+                "options": [
+                    "center",
+                    "left",
+                    "right"
+                ]
+            }
+        }
+    }
+}
