@@ -2,12 +2,12 @@
     "General": {
         "Launcher": {
             "First Launch": {
-                "value": "False",
+                "value": "True",
                 "information": "Indicates whether the app has been launched for the first time.",
                 "options": "bool"
             },
             "Auto-Update": {
-                "value": "False",
+                "value": "True",
                 "information": "Toggles automatic updates on or off.",
                 "options": "bool"
             }
@@ -15,7 +15,7 @@
     },
     "Appearance": {
         "Theme": {
-            "Color": {
+            "Color Scheme": {
                 "value": "dark-blue",
                 "information": "Sets the color scheme of this app.",
                 "options": [
@@ -24,7 +24,26 @@
                     "green"
                 ]
             },
-            "Font": {
+            "Alignment": {
+                "value": "left",
+                "information": "Sets the font alignment of this app.",
+                "options": [
+                    "center",
+                    "left",
+                    "right"
+                ]
+            },
+            "Light/Dark Mode": {
+                "value": "dark",
+                "information": "Toggles between light/dark mode for this app.",
+                "options": [
+                    "dark",
+                    "light"
+                ]
+            }
+        },
+        "Font": {
+            "Type": {
                 "value": "Segoe UI",
                 "information": "Sets the font of this app.",
                 "options": [
@@ -33,14 +52,37 @@
                     "Times New Roman"
                 ]
             },
-            "Font Alignment": {
-                "value": "left",
-                "information": "Sets the font alignment of this app.",
+            "Size": {
+                "value": 12,
+                "information": "Sets the default font size for the application.",
+                "options": "int"
+            },
+            "Weight": {
+                "value": "normal",
+                "information": "Sets the default font weight for the application.",
                 "options": [
-                    "center",
-                    "left",
-                    "right"
+                    "normal",
+                    "bold"
                 ]
+            }
+        },
+        "Scaling": {
+            "High DPI Awareness": {
+                "value": "system",
+                "information": "Enables or disables automatic high DPI scaling.",
+                "options": [
+                    "system",
+                    "on",
+                    "off"
+                ]
+            },
+            "Global Scale": {
+                "value": 1.0,
+                "information": "Custom scaling factor for the application."
+            },
+            "Corner Radius": {
+                "value": 10,
+                "information": "Roundness of corners for widgets."
             }
         }
     }
