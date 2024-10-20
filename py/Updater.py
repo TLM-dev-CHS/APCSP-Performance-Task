@@ -1,6 +1,7 @@
 from py.Global import *
 import requests
 from colorama import Fore, Style
+from packaging.version import parse
 
 ONLINE_VERSION = requests.get(f"{BASE_URL}/txt/version.txt").text
 
@@ -10,8 +11,8 @@ class Updater:
         self.VersionChecker()
         
     def VersionChecker(self):
-        LV = ONLINE_VERSION.replace(".", "")
-        CV = VERSION.replace(".", "")
+        LV = parse(ONLINE_VERSION)
+        CV = parse(VERSION)
         
         logging.info(f"Local version: {VERSION}")
         logging.info(f"Online version: {ONLINE_VERSION}")
