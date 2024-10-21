@@ -2,7 +2,7 @@ import customtkinter as ctk
 from colorama import Fore, Style
 
 from py.Global import *
-from py.DirectoryTree import *
+from py.Hierarchy import *
 from py.Updater import *
 
 

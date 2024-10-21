@@ -7,7 +7,7 @@ CURRENT_DIR = os.getcwd()
 APP_NAME = "App Frame"
 BASE_URL = "https://raw.githubusercontent.com/TLM-dev-CHS/APCSP-Performance-Task/refs/heads/main"
 
-VERSION = "1.2.0"
+VERSION = "1.1.0"
 
 DATE_STR = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S") 
 
